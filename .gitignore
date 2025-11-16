@@ -1,0 +1,49 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+/.idea
+/.vscode
+Homestead.json
+Homestead.yaml
+/.phpunit.result.cache
+
+# Laravel Mix / NPM
+/public/hot
+/public/mix-manifest.json
+/public/css/*.css.map
+/public/js/*.js.map
+npm-debug.log
+yarn-error.log
+
+# Composer
+composer.phar
+
+# IDE / Editor Files
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.DS_Store
+*.bak
+
+# Logs & Cache
+/storage/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Optional: Mac or Linux system files
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+phpunit.xml
+phpunit.xml.dist
+
+# Node
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
